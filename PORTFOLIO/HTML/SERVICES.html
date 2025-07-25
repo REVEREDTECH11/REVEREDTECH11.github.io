@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MY SERVICES</title>
+  <link rel="stylesheet" href="/css/SERVICES.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="LAMAR">
+  <meta name="keywords" content="">
+  <meta name="robots" content="">
+  <meta name="revisit-after" content="">
+  <meta name="language" content="">
+  <meta name="copyright" content="">
+</head>
+<body>
+<h1>SERVICES</h1>
+<h4>WE OFFER A WIDE RANDE OF SERVICES</h4>
+<ul>
+  <li>WEB DEVELOPMENT</li>
+  <li>ANDROID DEVELOPMENT</li>
+  <li>SWIFT DEVELOPMENT</li>
+  <li>WEB DESIGN</li>
+  <li>VIDEO EDITING</li>
+  <li>VIDEO PRODUCTION</li>
+  <li>VIDEO AUDIO</li>
+  <li>COMPUTER REPAIR</li>
+  <li>CONSOLE REPAIR</li>
+  <li>IT SUPPORT</li>
+  <li>NETWORKING</li>
+</ul>
+
+<select name ="navigate" id="navigate">
+  <option value = "SERVICES.html">HOME</option>
+  <option value = "MYLINKS.html">MY LINKS</option>
+  <option value = "PROJECTS.html">MY PROJECTS</option>
+  <option value = "KNOWLEDGE.html">MY KNOWLEDGE</option>
+  <option value = "HOME.html">SERVICES</option>
+  <option value = "CONTACT.html">CONTACT</option>
+
+</select>
+<button onclick="goToPlatform()" target="blank">GO</button>
+
+<script>
+  function goToPlatform() {
+    var selectedPlatform = document.getElementById("navigate").value;
+    window.open(selectedPlatform, '_blank');
+  }
+</script>
+</body>
+<footer>DESIGNED BY GREG LAMAR</footer>
+</html>

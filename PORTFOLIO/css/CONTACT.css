@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #c71111;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #c71111;
+  margin-top: 20px;
+}
+
+/* Profile Image */
+img {
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Social Media Dropdown */
+label {
+  font-weight: bold;
+}
+
+select {
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #c71111;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+a{
+  color: #c71111;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #393333;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Footer */
+
+

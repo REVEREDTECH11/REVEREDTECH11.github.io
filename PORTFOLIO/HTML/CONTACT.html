@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CONTACT</title>
+  <link rel="stylesheet" href="/css/CONTACT.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="LAMAR">
+  <meta name="keywords" content="">
+  <meta name="robots" content="">
+  <meta name="revisit-after" content="">
+  <meta name="language" content="">
+  <meta name="copyright" content="">
+  <meta name="rating" content="">
+  <meta name="doc-class" content="">
+</head>
+<body>
+  <h3>CONTACT PREFERENCES</h3>
+  <button>
+    <a href = "tel:478-390-0314">CLICK TO PHONE</a>
+  </button>
+  <button>
+    <a href = "mailto:lamarfc11@gmail.com">CLICK TO EMAIL</a>
+  </button>
+  <select name="navigate" id="navigate">
+    <option value="HOME.html">HOME</option>
+    <option value="MYLINKS.html">MY LINKS</option>
+    <option value="PROJECTS.html">MY PROJECTS</option>
+    <option value="KNOWLEDGE.html">MY KNOWLEDGE</option>
+    <option value="SERVICES.html">SERVICES</option>
+    <option value="CONTACT.html">CONTACT</option>
+  </select>
+  <button onclick="goToPage()" target="blank">GO</button>
+  <script>
+    function goToPage() {
+      var {value: selectedPlatform} = document.getElementById("navigate");
+      window.open(selectedPlatform, '_blank');
+    }
+  </script>
+</body>
+</html>

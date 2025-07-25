@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MY KNOWLEDGE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/KNOWLEDGE.css">
+  <meta name="description" content="">
+</head>
+
+
+<body>
+  <h3>COLLEGE</h3>
+    <ul class = "college">
+      <li>GEORGIA SOUTHERN UNIVERSITY - ATTENDING - SENIOR GPA: 4.0</li>
+      <li>CONCORD UNIVERSITY</li>
+    </ul>
+  <h3>CERTIFICATION</h3>
+  <ul class="certification">
+    <li>IMB - FULLSTACK DEVELOPER</li>
+    <li>INTRO TO HTML</li>
+    <li>INTRO TO PYTHON</li>
+    <li>JAVA FUNDAMENTALS</li>
+    <li>GOOGLE CYBERSECURITY</li>
+  </ul>
+
+  <h3>SKILLS</h3>
+    <ul class = "skills">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JAVASCRIPT</li>
+      <li>PYTHON</li>
+      <li>JAVA</li>
+      <li>JAVAFX</li>
+      <li>ANDROID STUDIO</li>
+    </ul>
+  <h2>NAVIGATE</h2>
+
+  <select name="navigate" id="navigate" >
+    <option value="KNOWLEDGE.html">HOME</option>
+    <option value="MYLINKS.html">MY LINKS</option>
+    <option value="PROJECTS.html">MY PROJECTS</option>
+    <option value="HOME.html">MY KNOWLEDGE</option>
+    <option value="CONTACT.html">CONTACT</option>
+    <option value="SERVICES.html">SERVICES</option>
+  </select>
+  <button onclick="goToPlatform()" target="blank">GO</button>
+
+  <script>
+    function goToPlatform() {
+      var selectedPlatform = document.getElementById("navigate").value;
+      window.open(selectedPlatform, '_blank');
+    }
+  </script>
+</body>
+</html>

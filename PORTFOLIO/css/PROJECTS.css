@@ -1,0 +1,39 @@
+body{
+  text-align: center;
+  color #000000:
+
+}
+h1{
+  text-align: center;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+}
+select{
+  text-align: center;
+  border-radius: 10px;
+  font-size: 30px;
+}
+button{
+  text-align: center;
+  border-radius: 10px;
+  color: #c71111;
+  font-size: 25px;
+}
+
+a{
+  text-align: center;
+  color: #c71111;
+  text-decoration: none;
+}
+
+li{
+  text-align: center;
+  color: #000000;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+section.giphy{
+  border-radius: 30px;
+)

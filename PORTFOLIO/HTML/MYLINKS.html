@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MY LINKS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/MYLINKS.css">
+  <meta name="description" content="">
+</head>
+<body>
+  <h1>MY LINKS</h1>
+  <select name="LINKS" id="LINKS">
+    <option value="https://github.com/REVEREDTECH11/LAMAR-SWE-PROJECTS/tree/WEB-PROJECTS">GITHUB</option>
+    <option value="https://www.linkedin.com/in/gregory-lamar-832683167?trk=people-guest_people_search-card">LINKEDIN</option>
+    <option value="https://www.instagram.com/lamarjr.11/">INSTAGRAM</option>
+    <option value="https://www.facebook.com/lamarjr.11">FACEBOOK</option>
+  </select>
+  <button onclick="goToLink()" target="blank">Go</button>
+
+  <script>
+    function goToLink() {
+      var selectedPlatform = document.getElementById("LINKS").value;
+      window.open(selectedPlatform, '_blank');
+    }
+  </script>
+
+  <h2>NAVIGATE</h2>
+  <select name="navigate" id="navigate">
+    <option value="HOME.html">HOME</option>
+    <option value="MYLINKS.html">MY LINKS</option>
+    <option value="PROJECTS.html">MY PROJECTS</option>
+    <option value="KNOWLEDGE.html">MY KNOWLEDGE</option>
+    <option value="CONTACT.html">CONTACT
+    <option value="SERVICES.html">SERVICES</option>
+  </select>
+  <button onclick="goToPage()">GO</button>
+
+  <script>
+    function goToPage() {
+      var {value: selectedPlatform} = document.getElementById("navigate");
+      window.open(selectedPlatform, '_blank');
+    }
+  </script>
+</body>
+<footer>
+  <p>DESIGNED MY GREG LAMAR</p>
+</footer>
+</html>
